@@ -1,0 +1,29 @@
+{
+  "name": "api-sentimentanalysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "start": "tsc && node dist/main.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biurk/api-sentimentAnalysis.git"
+  },
+  "author": "Florent Dravet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biurk/api-sentimentAnalysis/issues"
+  },
+  "homepage": "https://github.com/Biurk/api-sentimentAnalysis#readme"
+}
